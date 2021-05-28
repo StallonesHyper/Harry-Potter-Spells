@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  display: inline;
+}
+
+button {
+  background-color: black;
+  margin: 5rem;
+  height: 6rem;
+  width: 12rem;
+  font-size: 2rem;
+  outline: none;
+  border-radius: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 30rem;
+  width: 60rem;
+  border-radius: 20px;
+}
+
+.changeSpell {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-family: "Acme", sans-serif;
+}
+
+p {
+  margin: 1rem;
+  color: rgb(133, 133, 133);
+}
